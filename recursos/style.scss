@@ -123,10 +123,10 @@ body {
     &.feedback {
       border: 2px solid $yellow-accent;
       background-color: $white;
-      color: $purple-primary;
+      color: $text-dark;
 
-      &:hover, &:active {
-        background-color: rgba($yellow-accent, 0.1);
+      span{
+        font-weight: 700;
       }
     }
   }
@@ -135,7 +135,7 @@ body {
 .footer {
   margin-top: 30px;
   font-size: 0.75rem;
-  color: #999;
+  color: $text-dark;
   text-align: center;
 }
 

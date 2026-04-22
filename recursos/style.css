@@ -106,16 +106,16 @@ body::before {
 .links-nav .link-card.feedback {
   border: 2px solid #FFD600;
   background-color: #FFFFFF;
-  color: #6A1B9A;
+  color: #2D2D2D;
 }
-.links-nav .link-card.feedback:hover, .links-nav .link-card.feedback:active {
-  background-color: rgba(255, 214, 0, 0.1);
+.links-nav .link-card.feedback span {
+  font-weight: 700;
 }
 
 .footer {
   margin-top: 30px;
   font-size: 0.75rem;
-  color: #999;
+  color: #2D2D2D;
   text-align: center;
 }
 
